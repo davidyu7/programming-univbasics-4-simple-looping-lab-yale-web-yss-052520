@@ -12,10 +12,15 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(array)
-  for message in array do
-    puts message
+  for element in array do
+    puts element
   end
 end
 
 def return_string_array(array)
-  
+  output_array = []
+  for element in array do
+    output_array.push(element.to_s)
+  end
+  puts output_array
+end
