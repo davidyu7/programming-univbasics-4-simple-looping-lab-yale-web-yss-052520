@@ -22,5 +22,5 @@ def return_string_array(array)
   for element in array do
     output_array.push(element.to_s)
   end
-  puts output_array
+  output_array
 end
